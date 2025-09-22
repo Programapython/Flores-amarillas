@@ -54,13 +54,17 @@ for(let i=0;i<=360;i+=0.1){
 ctx.fill();
 ctx.stroke();  // Dibuja el contorno
 
-let mensajes = ["Hola",
+let mensajes = [
+    "Hola",
     "...",
     "¿Cómo estás?",
     "Espero que bien",
+    "Toca el girasol",
     "Te quiero",
     "Feliz 21 de septiembre",
-    "¡Feliz Inicio de Primavera!"];
+    "¡Feliz Inicio de Primavera!",
+    ":)",
+];
 
 for (let i = 0; i < mensajes.length; i++){
     setTimeout(() => {titulo.textContent=mensajes[i];
